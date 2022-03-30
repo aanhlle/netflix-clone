@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+# A simple Netflix-clone using React Router, Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+One of my homeworks when learning front-end is to make a Movie List app, which uses the API from the MovieDB and render a list of movies. The project is kinda interesting but I think why not leverage it to a new level? And Netflix clone comes to life.
 
-## Available Scripts
+## Approach
 
-In the project directory, you can run:
+For the first phase I only have 4 days (32~35 working hours) to release. That's a bit extreme considering a normal sprint in agile project would span at least 2 weeks. However, we can define our goals simpler and think realistically about what we can achieve in a 4-day-sprint would help reduce the headache.
 
-### `npm start`
+Why 4 days? Well that's the deadline for my homework 😅. Also I think it's reachable and a great way to fight procrastination when we clearly define what to do and how much time we do it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### So, only 4 days left to deploy. What should I do in the first phase?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Making the initial UX/UI layout should be my main focus, before any logic comes in let just create something we can see. In my opinion it's also good too see your app shaping its form as soon as possible. It's like a sketch for your project.
 
-### `npm test`
+Next things would be adding simple logics (app states, get/query for movie). Also, I should factor some time to read docs for tools like Redux, React Router, and the MovieDB API. I've had some experience with them before but surely I will need to revisit the docs when coding... And I think that's it for 32 hours coding in Phase 1.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I would try to perfect my app later in Phase 2.
 
-### `npm run build`
+You can see the detail for Phase 1 as below
+[First Phase](#phase-1)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## To-dos list
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+0. Initialize project scope, creating Readme ✅
+1. Think about the approach and make a detailed phase ✅
+2. Create a storybook (optional do later)
+3. High level design (optional do later)
+4. Phase 1 implement _in progress_
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Working application
 
-### `npm run eject`
+_deploy url will appear here_
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Storybook
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### What is Storybook
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Storybook is an open source tool for building UI components and pages in isolation.
+It allows you to browse a component library, view the different states of each component, and interactively develop and test components.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Netflix Clone Storybook
 
-## Learn More
+## High level design
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Application architecture
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Simple data interaction flow
 
-### Code Splitting
+## Features and Road-map
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Phase 1
 
-### Analyzing the Bundle Size
+React application and simple API requests a.k.a the homework deadline phase
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> June 13 - 27, 2020
 
-### Making a Progressive Web App
+-   [x] Proven, scalable, and easy to understand project structure
+-   [x] Simple drag and drop kanban board
+-   [x] Add/update issue
+-   [x] Search/filtering issues
+-   [x] Add comments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+> While working with this application, I have the opportunity to revisit some of the interesting topics:
 
-### Advanced Configuration
+-   TailwindCSS configuration
+-   CSS styling and layout. CSS/HTML is easily taken lightly in web development for beginners. However I think it's really an important area to master if you really want to be a good and efficient front-end developer. Understanding how CSS works will make working with CSS from try-and-error approach lean towards think-and-implement one.
+-   Deploy React application to Netlify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Phase 2
 
-### Deployment
+> TBD
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Time spending
 
-### `npm run build` fails to minify
+Probably using Waka time report plugin in Vscode to track my time spending. For the first phase it shouldn't go beyond 32 coding hours as I need to meet my submit deadline.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's currently missing?
+
+There are missing features from the live demo which should exist in a real product.
+
+### Proper authentication system 🔐
+
+### Accessibility ♿
+
+Not all components have properly defined [aria attributes](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA), visual focus indicators, etc.
+
+## Setting up development environment 🛠
+
+-   `git clone https://github.com/aanhlle/netflix-clone.git`
+-   `cd netflix-clone`
+-   `npm start` for react web application
+-   The app should run on `http://localhost:3000/`
+
+### Unit/Integration tests 🧪
+
+I skipped writing test for this project. Might do it later when I learn more about testing.
+
+## Compatibility
+
+Will test on the Chrome, iPhone and Android to make sure things not break 🤦‍♂️
+
+## Author: Anh Le ✍️
+
+-   A young and passionate developer.
+-   Contact for opportunity @ [LinkedIn](https://www.linkedin.com/in/levietanh1112/)
+
+## Contributing
+
+If you have any ideas, just [open an issue][issues] and tell me what you think.
+
+If you'd like to contribute, please fork the repository and make changes as you'd like. [Pull requests][pull] are warmly welcome.
+
+## Credits
+
+For the approach to project:
+[trungk18/jira-clone-angular][trungk18]
+
+I referenced these projects below to learn about coding structure and might reuse part of HTML/CSS.
+(Please note that I try to do all the Javascript coding logic on my own, because I consider this a valuable learning opportunity)
+[Th3Wall/Fakeflix][th3wall]
+
+## License
+
+Feel free to use my code on your project.
+
+[MIT](https://opensource.org/licenses/MIT)
