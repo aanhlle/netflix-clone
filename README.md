@@ -1,4 +1,4 @@
-# A simple Netflix-clone using React Router, Redux
+# A simple Netflix-clone using React, Redux, and React Router
 
 One of my homeworks when learning front-end is to make a Movie List app, which uses the API from the MovieDB and render a list of movies. The project is kinda interesting but I think why not leverage it to a new level? And Netflix clone comes to life.
 
