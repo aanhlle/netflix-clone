@@ -52,13 +52,13 @@ It allows you to browse a component library, view the different states of each c
 
 React application and simple API requests a.k.a the homework deadline phase
 
-> June 13 - 27, 2020
+> Mar 30 - Apr 3, 2022
 
--   [x] Proven, scalable, and easy to understand project structure
--   [x] Simple drag and drop kanban board
--   [x] Add/update issue
--   [x] Search/filtering issues
--   [x] Add comments
+-   [] Proven, scalable, and easy to understand project structure
+-   [] Simple project layout: login page, home page (with search bar, carousel)
+-   [] Simple project layout: movie detail modal
+-   [] Search/filtering movies
+-   [] Add comments
 
 > While working with this application, I have the opportunity to revisit some of the interesting topics:
 
@@ -69,6 +69,8 @@ React application and simple API requests a.k.a the homework deadline phase
 ### Phase 2
 
 > TBD
+
+-   [] The cool auto-load trailer after you login to netflix
 
 ## Time spending
 
@@ -102,7 +104,7 @@ Will test on the Chrome, iPhone and Android to make sure things not break 🤦�
 ## Author: Anh Le ✍️
 
 -   A young and passionate developer.
--   Contact for opportunity @ [LinkedIn](https://www.linkedin.com/in/levietanh1112/)
+-   Send me a message for opportunity @ [LinkedIn](https://www.linkedin.com/in/levietanh1112/)
 
 ## Contributing
 
@@ -112,11 +114,12 @@ If you'd like to contribute, please fork the repository and make changes as you'
 
 ## Credits
 
-For the approach to project:
+For the approach to this project:
 [trungk18/jira-clone-angular][trungk18]
 
-I referenced these projects below to learn about coding structure and might reuse part of HTML/CSS.
-(Please note that I try to do all the Javascript coding logic on my own, because I consider this a valuable learning opportunity)
+I referenced the projects below to learn about project structure and might reuse part of HTML/CSS.
+Kudos to Th3Wall for his project.
+(Please note that I try to do all the Javascript coding logic on my own, because I consider this a valuable learning opportunity.)
 [Th3Wall/Fakeflix][th3wall]
 
 ## License
