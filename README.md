@@ -2,6 +2,8 @@
 
 One of my homeworks when learning front-end is to make a Movie List app, which uses the API from the MovieDB and render a list of movies. The project is kinda interesting but I think why not leverage it to a new level? And Netflix clone comes to life.
 
+📢 this project is currently hibernated. Due to the fact that there are lots of thing to study, and copying the code is not what I really want to. So, what's next is that I will try to do a simpler version to use the React Context, React Router first, also I need to better my CSS styling skills.
+
 ## Approach
 
 For the first phase I only have 4 days (32~35 working hours) to release. That's a bit extreme considering a normal sprint in agile project would span at least 2 weeks. However, we can define our goals simpler and think realistically about what we can achieve in a 4-day-sprint would help reduce the headache.

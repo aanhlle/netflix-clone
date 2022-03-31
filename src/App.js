@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Homepage from "./pages/Homepage";
+import Login from "./pages/Login";
+import NotFound from "./pages/NotFound";
+import Popular from "./pages/Popular";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    let isAuthenticated = true;
+    return (
+        <Routes>
+            <Route
+                path="/"
+                element={isAuthenticated ? <Homepage /> : <Login />}
+            ></Route>
+            <Route
+                path="/popular"
+                element={isAuthenticated ? <Popular /> : <Login />}
+            />
+            <Route path="*" element={<NotFound />} />
+        </Routes>
+    );
 }
 
 export default App;
